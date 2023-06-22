@@ -96,7 +96,7 @@ const App = () => {
     <main style={{ height : "100vh", width: "100vw", backgroundColor: "#494D5F" }}>
       <h1>Challenge Kosmos - React JS</h1>
       <div className="buttons">
-      <button onClick={addMoveable}>Add Moveable1</button>
+      <button onClick={addMoveable}>Add Moveable</button>
       {selectedComponent && <button className="danger" onClick={removeSelectedMoveable}>Remove Selected Moveable</button>}
       </div>
       <div
