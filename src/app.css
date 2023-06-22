@@ -1,0 +1,32 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: .5em;
+}
+
+button {
+    background-color: #3ab;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+.danger {
+  background-color: #ff1d58;
+}
